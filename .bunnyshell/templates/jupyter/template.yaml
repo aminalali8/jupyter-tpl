@@ -1,0 +1,16 @@
+# Template Documentation
+name: Jupyter Template
+description: Deploying JupyterHub on Bunnyshell utilizes the `zero-to-jupyterhub-k8s` Helm chart. This Helm chart provides a simple and customizable way to deploy JupyterHub on a Kubernetes cluster.
+tags:
+    - jupyter
+    - python
+    - data science
+icons: [ 'python', 'jupyter', 'helm' ]
+stack:
+  packages:
+    - name: JupyterHub
+      version: '3.3'
+discoverable: true
+categories:
+    - web-ides
+
