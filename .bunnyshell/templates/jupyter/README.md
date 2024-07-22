@@ -17,6 +17,9 @@ Deploying JupyterHub on Bunnyshell utilizes the `zero-to-jupyterhub-k8s` Helm ch
 3. **Chart Version**: The only template parameter provided in the deployment is the chart version. The default value for the chart version is `3.3`.
 4. **Deploy**
 
+## References
+- The helm charts full [configuration yaml](./config.yaml) file.
+
 ## Summary
 
 - **Customize Configuration**: Update the `config.yaml` file to suit your specific requirements.
